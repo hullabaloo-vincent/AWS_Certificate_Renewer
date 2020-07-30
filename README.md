@@ -13,5 +13,5 @@ Run the batch file as an administrator. If for whatever reason it cannot find th
 ```
 ::set parentDirRAW=%0
 ::set parentDirNoQuotes=%parentDirRAW:"=%
-::set parentDir=%parentDirNoQuotes:LAUNCH.bat=%
+::set parentDir=%parentDirNoQuotes:AWS_Certificate_Renewer_v1.2.bat=%
 ```
