@@ -17,7 +17,7 @@ SETLOCAL enabledelayedexpansion
 
 ::set parentDirRAW=%0
 ::set parentDirNoQuotes=%parentDirRAW:"=%
-::set parentDir=%parentDirNoQuotes:LAUNCH.bat=%
+::set parentDir=%parentDirNoQuotes:AWS_Certificate_Renewer_v1.2.bat=%
 set textFileLoc=temp.txt
 
 for /F "tokens=* delims=" %%a in (%textFileLoc%) do (
