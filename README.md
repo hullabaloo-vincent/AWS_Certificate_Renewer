@@ -1,6 +1,6 @@
 # AWS Certificate Renewer
 
-Put your keys in a text file called `temp.txt` and populate it with the following:
+Put your keys in a text file called `temp.txt` and make sure it is populated with the following:
 
 export AWS_ACCESS_KEY_ID=`<YOUR ID>`
 
