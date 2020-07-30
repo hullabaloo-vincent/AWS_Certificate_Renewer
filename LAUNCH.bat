@@ -17,7 +17,7 @@ SETLOCAL enabledelayedexpansion
 
 ::set parentDirRAW=%0
 ::set parentDirNoQuotes=%parentDirRAW:"=%
-::set parentDir=%parentDirNoQuotes:test.bat=%
+::set parentDir=%parentDirNoQuotes:LAUNCH.bat=%
 set textFileLoc=temp.txt
 
 for /F "tokens=* delims=" %%a in (%textFileLoc%) do (
